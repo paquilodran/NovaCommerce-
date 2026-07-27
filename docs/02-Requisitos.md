@@ -1,38 +1,50 @@
-# 02. Requisitos del Proyecto
+# Requisitos
 
-# Requisitos Funcionales
+## Funcionales
 
-- Hospedar una aplicación web.
-- Base de datos PostgreSQL.
-- Almacenamiento de imágenes.
-- Balanceo de carga.
-- Acceso seguro.
+La plataforma deberá permitir:
+
+- Hospedar una API REST.
+- Ejecutar servidores de aplicación.
+- Almacenar imágenes de productos.
+- Disponer de una base de datos PostgreSQL.
+- Balancear tráfico HTTP/HTTPS.
+- Registrar logs.
+- Monitorear recursos.
 
 ---
 
-# Requisitos No Funcionales
+# No funcionales
+
+La infraestructura deberá cumplir con:
 
 - Alta disponibilidad.
-- Escalabilidad.
-- Seguridad.
-- Bajo costo.
-- Infraestructura reproducible.
+- Escalabilidad horizontal.
+- Seguridad por defecto.
+- Bajo costo operativo.
+- Automatización.
+- Versionamiento.
 
 ---
 
 # Restricciones
 
-El proyecto debe ejecutarse utilizando recursos compatibles con AWS Academy.
+El proyecto será desplegado utilizando AWS Academy.
 
-Debe minimizar el consumo de créditos.
+Por este motivo:
+
+- Se minimizará el costo.
+- Se evitarán servicios innecesarios.
+- Se destruirán recursos cuando no estén en uso.
 
 ---
 
-# Criterios de éxito
+# Ambientes
 
-El proyecto será exitoso cuando:
+El proyecto contemplará tres ambientes.
 
-- Toda la infraestructura pueda desplegarse con Terraform.
-- La arquitectura esté documentada.
-- Exista separación entre ambientes.
-- El código sea modular.
+- Development
+- Staging
+- Production
+
+Cada uno tendrá configuraciones independientes.
