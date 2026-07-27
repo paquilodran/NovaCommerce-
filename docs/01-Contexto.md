@@ -71,3 +71,6 @@ No incluye el desarrollo de la aplicación web.
 - Alta disponibilidad
 - Menor riesgo operacional
 - Documentación centralizada
+
+  <img width="569" height="322" alt="image" src="https://github.com/user-attachments/assets/18eb78cf-0fda-43e6-9301-a8b9f868bf5c" />
+
