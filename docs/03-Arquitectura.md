@@ -3,42 +3,8 @@
 ## Visión general
 
 La infraestructura se diseñará siguiendo una arquitectura de tres capas.
+<img width="816" height="623" alt="image" src="https://github.com/user-attachments/assets/fe4e3882-ae52-412e-947a-4ac041c02b3e" />
 
-```text
-                     Internet
-                         │
-                    Route53
-                         │
-                    ACM (HTTPS)
-                         │
-            Application Load Balancer
-                         │
-                Auto Scaling Group
-                 EC2 Amazon Linux
-                         │
-              Spring Boot REST API
-                         │
-                  RDS PostgreSQL
-
-────────────────────────────────────────
-
-S3 → Imágenes
-
-CloudWatch → Logs
-
-IAM → Seguridad
-
-VPC
-
-Public Subnets
-
-Private Subnets
-
-NAT Gateway
-
-Terraform Backend
-(S3 + DynamoDB)
-```
 
 ---
 
