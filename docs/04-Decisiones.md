@@ -1,48 +1,84 @@
-# 04. Decisiones de Arquitectura
+# Decisiones Técnicas
 
-## Terraform
+## ¿Por qué Terraform?
 
-Elegido por permitir Infrastructure as Code.
+Terraform permite definir toda la infraestructura mediante código.
 
----
+Beneficios:
 
-## AWS
-
-Proveedor cloud líder del mercado.
-
----
-
-## PostgreSQL
-
-Base de datos robusta y ampliamente utilizada.
+- Reproducibilidad
+- Versionamiento
+- Automatización
+- Colaboración
+- Auditoría
 
 ---
 
-## S3
+## ¿Por qué AWS?
 
-Almacenamiento escalable para archivos.
+AWS ofrece una gran variedad de servicios administrados ampliamente utilizados por empresas.
 
----
-
-## CloudWatch
-
-Monitoreo y observabilidad.
+Además permite escalar la infraestructura conforme crece el negocio.
 
 ---
 
-## GitHub
+## ¿Por qué una arquitectura modular?
 
-Control de versiones.
-
----
-
-## Arquitectura Modular
-
-Cada servicio será implementado mediante módulos independientes de Terraform.
+Cada componente será implementado como un módulo independiente.
 
 Esto facilita:
 
 - mantenimiento
 - reutilización
-- escalabilidad
 - pruebas
+- escalabilidad
+
+---
+
+## ¿Por qué PostgreSQL?
+
+Base de datos ampliamente utilizada.
+
+Alta estabilidad.
+
+Excelente integración con AWS RDS.
+
+---
+
+## ¿Por qué S3?
+
+Permite almacenar archivos con alta disponibilidad y muy bajo costo.
+
+---
+
+## ¿Por qué CloudWatch?
+
+Centraliza métricas, logs y monitoreo de toda la infraestructura.
+
+---
+
+## ¿Por qué GitHub?
+
+Versionamiento.
+
+Documentación.
+
+CI/CD.
+
+Colaboración.
+
+Historial de cambios.
+
+---
+
+## Principios del proyecto
+
+Infrastructure as Code.
+
+Security First.
+
+Automation First.
+
+Least Privilege.
+
+Documentation First.
