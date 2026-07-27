@@ -48,3 +48,6 @@ El proyecto contemplará tres ambientes.
 - Production
 
 Cada uno tendrá configuraciones independientes.
+
+<img width="746" height="602" alt="image" src="https://github.com/user-attachments/assets/e2357ba5-d35a-4879-a883-438f72dbe88b" />
+
