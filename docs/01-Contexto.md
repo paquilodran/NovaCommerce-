@@ -1,47 +1,57 @@
-# 01. Contexto del Proyecto
+# Contexto del Proyecto
 
-## Descripción
+## Empresa
 
-NovaCommerce es una empresa ficticia dedicada al comercio electrónico de productos tecnológicos en Latinoamérica.
+NovaCommerce es una empresa ficticia dedicada al comercio electrónico de productos tecnológicos.
 
-Su plataforma vende:
+Opera principalmente en Latinoamérica ofreciendo productos como:
 
 - Notebooks
 - Smartphones
-- Accesorios
 - Componentes
+- Monitores
 - Periféricos
+- Accesorios
 
-Actualmente la infraestructura se administra manualmente desde la consola de AWS.
-
-Con el crecimiento de usuarios, esta forma de administración comienza a generar problemas.
+Actualmente recibe aproximadamente **10.000 visitas diarias** y continúa creciendo.
 
 ---
 
-# Problemas actuales
+# Situación actual
 
-- Configuración manual.
-- Errores humanos.
-- Infraestructura difícil de mantener.
-- Escalabilidad limitada.
-- Cambios poco controlados.
+La infraestructura fue creada inicialmente para un proyecto pequeño.
+
+Con el paso del tiempo comenzaron a aparecer problemas relacionados con el crecimiento del negocio.
+
+Entre ellos:
+
+- Recursos creados manualmente.
+- Configuraciones inconsistentes.
+- Falta de documentación.
+- Escasa automatización.
+- Riesgo de errores humanos.
+- Dificultad para reproducir ambientes.
+
+---
+
+# Problema de negocio
+
+Cada nuevo entorno requiere varias horas de configuración manual.
+
+No existe una forma sencilla de garantizar que Desarrollo, QA y Producción sean idénticos.
+
+Esto incrementa:
+
+- Tiempo de despliegue.
+- Riesgo operacional.
+- Costos.
+- Errores.
 
 ---
 
 # Objetivo
 
-Migrar toda la infraestructura hacia un modelo basado en **Infrastructure as Code (IaC)** utilizando Terraform.
-
----
-
-# Beneficios esperados
-
-- Automatización
-- Versionado
-- Escalabilidad
-- Seguridad
-- Reutilización
-- Despliegues repetibles
+Diseñar una plataforma moderna basada completamente en Infrastructure as Code utilizando Terraform.
 
 ---
 
@@ -49,4 +59,15 @@ Migrar toda la infraestructura hacia un modelo basado en **Infrastructure as Cod
 
 Este proyecto contempla únicamente la infraestructura cloud.
 
-No incluye el desarrollo del software de la tienda.
+No incluye el desarrollo de la aplicación web.
+
+---
+
+# Beneficios esperados
+
+- Infraestructura reproducible
+- Automatización
+- Escalabilidad
+- Alta disponibilidad
+- Menor riesgo operacional
+- Documentación centralizada
