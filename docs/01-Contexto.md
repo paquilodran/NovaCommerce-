@@ -1,5 +1,52 @@
 # 01. Contexto del Proyecto
 
-## Empresa
+## Descripci贸n
 
-NovaCommerce es una empresa ficticia de comercio electrico enfocada en la venta de tecnolog para clientes de Latinoam俽ica.
+NovaCommerce es una empresa ficticia dedicada al comercio electr贸nico de productos tecnol贸gicos en Latinoam茅rica.
+
+Su plataforma vende:
+
+- Notebooks
+- Smartphones
+- Accesorios
+- Componentes
+- Perif茅ricos
+
+Actualmente la infraestructura se administra manualmente desde la consola de AWS.
+
+Con el crecimiento de usuarios, esta forma de administraci贸n comienza a generar problemas.
+
+---
+
+# Problemas actuales
+
+- Configuraci贸n manual.
+- Errores humanos.
+- Infraestructura dif铆cil de mantener.
+- Escalabilidad limitada.
+- Cambios poco controlados.
+
+---
+
+# Objetivo
+
+Migrar toda la infraestructura hacia un modelo basado en **Infrastructure as Code (IaC)** utilizando Terraform.
+
+---
+
+# Beneficios esperados
+
+- Automatizaci贸n
+- Versionado
+- Escalabilidad
+- Seguridad
+- Reutilizaci贸n
+- Despliegues repetibles
+
+---
+
+# Alcance
+
+Este proyecto contempla 煤nicamente la infraestructura cloud.
+
+No incluye el desarrollo del software de la tienda.
